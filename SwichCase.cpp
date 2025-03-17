@@ -21,7 +21,25 @@ float luasLingkaran(float a) {
         cin >> pilihan;
 
         switch (pilihan)
-
+        {
+            case 1:
+                cout << "Hitung luas persegi panjang" << endl;
+                cout << "Masukkan panjang = ";
+                cin >> panjang;
+                cout << "Masukkan lebar = ";
+                cin >> lebar;
+                cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
+                break;
+            case 2:
+                cout << "Hitung luas lingkaran" << endl;
+                cout << "Masukkan jari-jari = ";
+                cin >> jarijari;
+                cout << "Luas lingkaran = " << luasLingkaran(jarijari) << endl;
+                break;
+            case 3:
+                break;
+            default:
+    
         
 
 }
