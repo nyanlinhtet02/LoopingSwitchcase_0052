@@ -39,7 +39,11 @@ float luasLingkaran(float a) {
             case 3:
                 break;
             default:
-    
+            cout << "Pilihan salah, pilihan harus di antara 1-3.";
+            break;
+        }
+    }while(pilihan != 3);
+}
         
 
 }
